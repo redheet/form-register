@@ -188,10 +188,10 @@ form.addEventListener("submit", (e) => {
     body: new FormData(form),
   })
     .then((response) =>
-      alert("Thank you! your form is submitted successfully.")
+      alert("Terima Kasih! Pendaftaran anda berhasil dikirim.")
     )
     .then(() => {
-      window.location.reload();
+      window.location.assign("success.html");
     })
     .catch((error) => console.error("Error!", error.message));
 });
