@@ -134,11 +134,11 @@
                 <div class="wizard-form-field mb-85">
                   <div class="wizard-form-input">
                     <label>Nama Lengkap</label>
-                    <input type="text" name="nama-lengkap" />
+                    <input type="text" name="nama-lengkap" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>No Handphone</label>
-                    <input type="tel" name="no-handphone" />
+                    <input type="tel" name="no-handphone" required />
                   </div>
                   <div class="wizard-form-input mb-60 mt-60">
                     <div class="line"></div>
@@ -171,19 +171,19 @@
                   </div>
                   <div class="wizard-form-input">
                     <label>Tanggal Lahir</label>
-                    <input type="date" name="tanggal-lahir" />
+                    <input type="date" name="tanggal-lahir" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Tempat Lahir</label>
-                    <input type="text" name="tempat-lahir" />
+                    <input type="text" name="tempat-lahir" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>NIK</label>
-                    <input type="number" name="nik" />
+                    <input type="number" name="nik" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>NISN</label>
-                    <input type="number" name="nisn" />
+                    <input type="number" name="nisn" required />
                   </div>
                 </div>
                 <div class="wizard-v3-progress">
@@ -202,7 +202,7 @@
                 <ul>
                   <li>
                     <span class="js-btn-next" title="NEXT"
-                      >SELANJUTNYA <i class="fa fa-arrow-right"></i
+                      >NEXT <i class="fa fa-arrow-right"></i
                     ></span>
                   </li>
                 </ul>
@@ -225,15 +225,15 @@
                 <div class="wizard-form-field mb-85">
                   <div class="wizard-form-input">
                     <label>Nama Sekolah Asal</label>
-                    <input type="text" name="nama-sekolah" />
+                    <input type="text" name="nama-sekolah" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Alamat Sekolah Asal</label>
-                    <input type="text" name="alamat-sekolah" />
+                    <input type="text" name="alamat-sekolah" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>NPSN Sekolah</label>
-                    <input type="number" name="npsn-sekolah" />
+                    <input type="number" name="npsn-sekolah" required />
                   </div>
                   <div class="wizard-form-input mb-60 mt-60">
                     <div class="line"></div>
@@ -255,12 +255,12 @@
                 <ul>
                   <li>
                     <span class="js-btn-prev" title="BACK"
-                      ><i class="fa fa-arrow-left"></i> KEMBALI
+                      ><i class="fa fa-arrow-left"></i> BACK
                     </span>
                   </li>
                   <li>
                     <span class="js-btn-next" title="NEXT"
-                      >SELANJUTNYA <i class="fa fa-arrow-right"></i
+                      >NEXT <i class="fa fa-arrow-right"></i
                     ></span>
                   </li>
                 </ul>
@@ -282,19 +282,19 @@
                 <div class="wizard-form-field mb-85">
                   <div class="wizard-form-input">
                     <label>Alamat Lengkap</label>
-                    <input type="text" name="alamat-lengkap" />
+                    <input type="text" name="alamat-lengkap" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Kota</label>
-                    <input type="text" name="kota" />
+                    <input type="text" name="kota" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Provinsi</label>
-                    <input type="text" name="provinsi" />
+                    <input type="text" name="provinsi" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Kode Pos</label>
-                    <input type="number" name="kode-pos" />
+                    <input type="number" name="kode-pos" required />
                   </div>
                 </div>
                 <div class="wizard-form-input mb-60 mt-60">
@@ -317,12 +317,12 @@
                 <ul>
                   <li>
                     <span class="js-btn-prev" title="BACK"
-                      ><i class="fa fa-arrow-left"></i> KEMBALI
+                      ><i class="fa fa-arrow-left"></i> BACK
                     </span>
                   </li>
                   <li>
                     <span class="js-btn-next" title="NEXT"
-                      >SELANJUTNYA <i class="fa fa-arrow-right"></i
+                      >NEXT <i class="fa fa-arrow-right"></i
                     ></span>
                   </li>
                 </ul>
@@ -346,30 +346,34 @@
                 <div class="wizard-form-field mb-85">
                   <div class="wizard-form-input">
                     <label>Nama Lengkap Ayah & Ibu</label>
-                    <input type="text" name="nama-lengkap-orangtua" />
+                    <input type="text" name="nama-lengkap-orangtua" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>No Handphone</label>
-                    <input type="tel" name="no-handphone-orangtua" />
+                    <input type="tel" name="no-handphone-orangtua" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>NIK Ayah</label>
-                    <input type="number" name="nik-ayah" />
+                    <input type="number" name="nik-ayah" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>NIK Ibu</label>
-                    <input type="number" name="nik-ibu" />
+                    <input type="number" name="nik-ibu" required />
                   </div>
                   <div class="wizard-form-input mb-60 mt-60">
                     <div class="line"></div>
                   </div>
                   <div class="wizard-form-input">
                     <label>Pekerjaan Ayah & Ibu</label>
-                    <input type="text" name="pekerjaan-orangtua" />
+                    <input type="text" name="pekerjaan-orangtua" required />
                   </div>
                   <div class="wizard-form-input">
                     <label>Penghasilan Perbulan Ayah & Ibu</label>
-                    <input type="text" name="penghasilan-perbulan-orangtua" />
+                    <input
+                      type="text"
+                      name="penghasilan-perbulan-orangtua"
+                      required
+                    />
                   </div>
                 </div>
                 <div class="wizard-v3-progress">
@@ -388,7 +392,7 @@
                 <ul>
                   <li>
                     <span class="js-btn-prev" title="BACK"
-                      ><i class="fa fa-arrow-left"></i> KEMBALI
+                      ><i class="fa fa-arrow-left"></i> BACK
                     </span>
                   </li>
                   <li>
@@ -398,7 +402,7 @@
                       id="submit"
                       value="submit"
                     >
-                      KIRIM <i class="fa fa-arrow-right"></i>
+                      SEND <i class="fa fa-arrow-right"></i>
                     </button>
                   </li>
                 </ul>
@@ -431,6 +435,20 @@
       }
       $("#customFile").change(function () {
         filename = this.files[0].name;
+      });
+
+      // validate form
+      const nameField = document.querySelector("input");
+
+      nameField.addEventListener("input", () => {
+        nameField.setCustomValidity("");
+        nameField.checkValidity();
+        console.log(nameField.checkValidity());
+      });
+
+      nameField.addEventListener("invalid", () => {
+        nameField.setCustomValidity("tidak bisa dikirim ada field yang kosong");
+        alert("ups ada field yang kosong, silakan diisi");
       });
     </script>
   </body>
