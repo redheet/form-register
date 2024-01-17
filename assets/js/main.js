@@ -188,10 +188,10 @@ form.addEventListener("submit", (e) => {
     body: new FormData(form),
   })
     .then((response) =>
-      alert("Terima Kasih! Pendaftaran anda berhasil dikirim.")
+      alert("Terima Kasih telah mendaftar, Silahkan upload bukti pembayaran.")
     )
     .then(() => {
-      window.location.assign("success.html");
+      window.location.assign("pembayaran.html");
     })
     .catch((error) => console.error("Error!", error.message));
 });
