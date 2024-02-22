@@ -187,11 +187,9 @@ form.addEventListener("submit", (e) => {
     method: "POST",
     body: new FormData(form),
   })
-    .then((response) =>
-      alert("Terima Kasih telah mendaftar, Silahkan upload bukti pembayaran.")
-    )
+    .then((response) => alert("Terima Kasih telah mendaftar!"))
     .then(() => {
-      window.location.assign("pembayaran.html");
+      window.location.assign("success.html");
     })
     .catch((error) => console.error("Error!", error.message));
 });
